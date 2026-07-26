@@ -45,6 +45,32 @@ A functional, pixel-perfect clone of the **Airbnb Web Application** built with m
 
 ---
 
+## 🏗️ Workflow Architecture
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant Frontend as Next.js Frontend (Vercel)
+    participant API as FastAPI Backend (Render)
+    participant DB as SQLite Database
+
+    User->>Frontend: Access Web App
+    Frontend->>API: Fetch Listings (GET /api/listings)
+    API->>DB: Query Listings Table
+    DB-->>API: Return Records
+    API-->>Frontend: JSON Response
+    Frontend-->>User: Render Home Grid
+
+    User->>Frontend: Book a Stay
+    Frontend->>API: Create Booking (POST /api/bookings)
+    API->>DB: Insert Booking Record
+    DB-->>API: Confirm Insertion
+    API-->>Frontend: 201 Created Response
+    Frontend-->>User: Success Notification
+```
+
+---
+
 ## 🗄️ Database Schema Design
 
 ```
