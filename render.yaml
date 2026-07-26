@@ -4,13 +4,7 @@ services:
     env: python
     rootDir: backend
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    startCommand: python seed.py && uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.0
-      - key: DATABASE_PATH
-        value: /data/airbnb.db
-    disk:
-      name: sqlite-data
-      mountPath: /data
-      sizeGB: 1
