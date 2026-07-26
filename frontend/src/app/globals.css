@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --primary: #FF385C;
+  --primary-hover: #E00B41;
+  --font-sans: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1A1A1A;
+  background-color: #FAFAFA;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism utility classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.glass-dark {
+  background: rgba(15, 15, 20, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Romantic Ambient Glow Background */
+.ambient-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(255, 56, 92, 0.12) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Leaflet Map Styling */
+.leaflet-popup-content-wrapper {
+  padding: 0 !important;
+  border-radius: 20px !important;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.price-marker-pin {
+  background: #FFFFFF;
+  color: #111111;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 5px 12px;
+  border-radius: 24px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.16);
+  border: 1px solid rgba(0,0,0,0.08);
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+
+.price-marker-pin:hover, .price-marker-pin.active {
+  background: #111111;
+  color: #FFFFFF;
+  transform: scale(1.15) translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 56, 92, 0.4);
+}
