@@ -2,6 +2,10 @@
 
 A functional, pixel-perfect clone of the **Airbnb Web Application** built with modern web technologies, replicating Airbnb's visual identity, user experience, and core booking workflows.
 
+## 🚀 Live Demo
+- **Frontend (Vercel)**: [https://airbnb-clone-one-coral.vercel.app](https://airbnb-clone-one-coral.vercel.app)
+- **Backend API (Render)**: [https://airbnb-clone-backend-96hk.onrender.com/docs](https://airbnb-clone-backend-96hk.onrender.com/docs)
+
 ---
 
 ## 🚀 Features Overview
