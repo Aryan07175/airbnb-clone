@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/</loc><priority>1.0</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs</loc><priority>0.9</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/features</loc><priority>0.8</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/architecture</loc><priority>0.8</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/tech-stack</loc><priority>0.8</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/frontend</loc><priority>0.7</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/backend</loc><priority>0.7</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/database</loc><priority>0.7</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/api</loc><priority>0.9</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/booking-flow</loc><priority>0.7</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/host-dashboard</loc><priority>0.7</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/local-setup</loc><priority>0.8</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/environment-variables</loc><priority>0.7</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/folder-structure</loc><priority>0.6</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/deployment</loc><priority>0.7</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/troubleshooting</loc><priority>0.6</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/faq</loc><priority>0.6</priority></url>
+  <url><loc>https://Aryan07175.github.io/airbnb-clone/docs/license</loc><priority>0.4</priority></url>
+</urlset>

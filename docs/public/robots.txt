@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Aryan07175.github.io/airbnb-clone/sitemap.xml

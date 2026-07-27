@@ -132,3 +132,15 @@ npm run dev
 ```
 
 Open **http://localhost:3000** in your browser to explore the application!
+
+---
+
+## 📖 Documentation
+
+A complete, production-quality documentation website is available for this project, covering architecture, API reference, booking flow, host dashboard, local setup, and deployment.
+
+**Live Documentation:** [https://Aryan07175.github.io/airbnb-clone/](https://Aryan07175.github.io/airbnb-clone/)
+
+The docs site is automatically deployed to GitHub Pages on every push to `main` via GitHub Actions.
+
+---
